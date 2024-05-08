@@ -23,7 +23,7 @@ nav {
 
 .navbar-expand-lg .navbar-nav {
     flex-direction: row;
-    gap: 80px !important;
+    gap: 50px !important;
 }
 
 
@@ -280,4 +280,79 @@ footer .con-icon a {
     margin-top: 20px;
     margin-left: 30%;
     width: 50%;
+}
+
+
+
+
+
+@media (min-width:0px) and (max-width:800px) {
+
+    footer .end-one,
+    .end-two,
+    .con-foot,
+    .end-four {
+        margin: 0px auto;
+    }
+
+    .con-foot {
+        flex-direction: column-reverse;
+    }
+
+    .con-foot>* {
+        width: 100% !important;
+
+
+    }
+
+    .cont,
+    .conta,
+    .contan {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        gap: 15px;
+        text-align: center;
+    }
+
+}
+
+@media (min-width:0px) and (max-width:700px) {
+
+
+    .con-foot {
+        flex-direction: column-reverse;
+    }
+
+    .con-foot>* {
+        width: 100% !important;
+
+
+    }
+
+    /* 
+    .cont,
+    .conta,
+    .contan {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: calc((100% - 30px) / 2);
+        gap: 15px;
+        text-align: center;
+    }
+
+    .card-2 {
+        display: block;
+        text-align: center;
+        width: calc((100% - 40px) / 1);
+    }
+
+    .card {
+        width: calc((100% - 30px) / 1);
+        color: white;
+        margin: 30px auto;
+    } */
 }

@@ -23,7 +23,7 @@ nav {
 
 .navbar-expand-lg .navbar-nav {
     flex-direction: row;
-    gap: 80px !important;
+    gap: 50px !important;
 }
 
 
@@ -333,6 +333,16 @@ footer .con-icon a {
         width: calc((100% - 30px) / 3);
         gap: 15px;
         text-align: center;
+    }
+
+    .con-foot {
+        flex-direction: column-reverse;
+    }
+
+    .con-foot>* {
+        width: 100% !important;
+
+
     }
 
 }
